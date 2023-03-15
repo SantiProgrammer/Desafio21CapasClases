@@ -17,7 +17,7 @@ const productos = generatePost();
 
 describe("PRODUCTS /api/products", () => {
   describe("Get product stock", () => {
-    it("✅ deberia responder con status 200 y ser array", async () => {
+    it("✅ Get product stock success!", async () => {
       const res = await request.get("/api/product/stock");
       expect(res.status).to.eql(200);
       expect(res.body).to.be.a("array");
@@ -27,7 +27,7 @@ describe("PRODUCTS /api/products", () => {
 
   /* POST PRODUCTOS */
   describe("POST ONE /api/products", () => {
-    it("✅ Agregar un producto", async () => {
+    it("✅ Post product success!", async () => {
       const productos = generatePost();
       const res = await request.post("/api/product/post").send(productos);
       expect(res.status).to.eql(201);
