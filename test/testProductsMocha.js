@@ -30,7 +30,7 @@ describe("PRODUCTS /api/products", () => {
     it("✅ Agregar un producto", async () => {
       const productos = generatePost();
       const res = await request.post("/api/product/post").send(productos);
-      expect(res.status).to.eql(200);
+      expect(res.status).to.eql(201);
       expect(res.body).to.be.a("object");
       // expect(res.body).to.include.keys("body","id");
       // expect(productos.title).to.eql(res.body.title);

@@ -1,13 +1,13 @@
 1.- npm i
 
 2.-
-a) mongo - npm run prod
+a) mongo - npm run prod (iniciar con mongo para el testing)
 b) memory - npm run dev
 c) file - npm run file
 
-3.- (Testing de prodcutos en mongo "get y post")
-npm testMocha (para correr el test de mocha
-npm testAxios (para correr el test de Axios
+3.- (Testing de productos en mongo "get y post")
+npm run testMocha para correr el test de mocha
+npm run testAxios para correr el test de Axios
 
 4.- Server alojado dentro de una clase
 
