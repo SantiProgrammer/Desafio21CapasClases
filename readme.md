@@ -6,10 +6,10 @@ b) memory - npm run dev
 c) file - npm run file
 
 3.- (Testing de productos en mongo "get y post")
-npm run testMocha para correr el test de mocha
-npm run testAxios para correr el test de Axios
+npm run testMocha "para correr el test de mocha"
+npm run testAxios "para correr el test de Axios"
 
-4.- Server alojado dentro de una clase
+4.- Server alojado dentro de una clase ( aun falta importarlo en app.js)
 
 5.- Datos de login:
 
