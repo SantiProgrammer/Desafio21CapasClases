@@ -101,6 +101,7 @@ export class mainServer {
         partialsDir: __dirname + "/views/partials",
       })
     );
+    
   }
 
   listen() {
@@ -111,5 +112,4 @@ export class mainServer {
 }
 
 
-const serverApp = new mainServer()
-serverApp.listen()
+

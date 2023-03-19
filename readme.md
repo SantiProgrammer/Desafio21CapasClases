@@ -5,7 +5,7 @@ a) mongo - npm run prod (iniciar con mongo para el testing)
 b) memory - npm run dev
 c) file - npm run file
 
-3.- (Testing de productos en mongo "get y post")
+3.- En una terminal aparte del server que está corriendo ejecuta: (Testing de productos en mongo "get y post")
 npm run testMocha "para correr el test de mocha"
 npm run testAxios "para correr el test de Axios"
 

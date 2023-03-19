@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon app.js",
     "testMocha": "mocha ./test/testProductsMocha.js",
     "testAxios": "node ./test/testProductsAxios.js",
-    "dev": "nodemon server.js dev",
-    "prod": "node server.js prod",
-    "file": "node server.js file",
+    "dev": "node --watch app.js dev",
+    "prod": "node app.js prod",
+    "file": "node app.js file",
     "sass": "sass --watch public/styles/scss/styles.scss public/styles/css/styles.css"
   },
   "keywords": [],
